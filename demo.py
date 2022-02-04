@@ -1,8 +1,5 @@
-txt = "H\te\tl\tl\to"
+birth_year=input("Birth Year")
 
-print(txt)
-print(txt.expandtabs())
-print(txt.expandtabs(2))
-print(txt.expandtabs(4))
-print(txt.expandtabs(10))
-print(txt.expandtabs(1))
+a=int(birth_year)
+age=2022-a
+print(age)
